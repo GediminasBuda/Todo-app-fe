@@ -1,7 +1,5 @@
 const baseUrl = 'https://localhost:5001/todos'; //naujas testas del pakeitimu isasugojimo 2021.09.13
 
-const baseUrl3 = 'https://localhost:5001/todos'; //naujas testas del pakeitimu isasugojimo 2021.09.13
-const baseUrl4 = 'https://localhost:5001/todos'; //naujas testas del pakeitimu isasugojimo 2021.09.13
 
 async function getTodos() {
     const response = await fetch(baseUrl);
