@@ -1,3 +1,7 @@
+body {
+    background-color: #d6ebe1;
+}
+
 @keyframes blink {
     0% {
         background-color: #198754;
