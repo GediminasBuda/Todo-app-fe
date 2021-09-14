@@ -38,7 +38,7 @@ window.onload = async () => {
 todoForm.addEventListener("submit", async function (e) {
   e.preventDefault();
 
-  if (titleInput.value.length > 0 || descriptionInput.value.length > 0 || difficultyInput.value.length > 0 ) {
+  if (titleInput.value.length > 0 ) {
     titleInput.classList.remove("is-invalid");
     var todoItem = {
             title: titleInput.value,  
